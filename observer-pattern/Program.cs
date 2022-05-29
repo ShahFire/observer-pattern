@@ -19,7 +19,7 @@ namespace observer_pattern
             subject.RegisterObserver(observer1);
             subject.State = 100;
 
-            Console.WriteLine("Наблюдатель Боб: " + observer1.Counter);
+            Console.WriteLine("Наблюдатель Боб): " + observer1.Counter);
             Console.WriteLine("Наблюдатель Тед: " + observer2.Counter);
 
             subject.RegisterObserver(observer2);
